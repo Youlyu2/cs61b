@@ -33,6 +33,8 @@ public class NBody{
 		Body[] bodies = readBodies(filename);
 		int N = bodies.length;
 
+		StdAudio.play("audio/2001.mid");
+
 		StdDraw.setScale(-universeRadius, universeRadius);
 		/**
 		StdDraw.picture(0, 0, "images/starfield.jpg");
